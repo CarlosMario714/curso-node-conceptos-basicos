@@ -1,4 +1,5 @@
 //retorna una promesa por que eso es lo que ocurre cuando se hace la peticion a una api, y por eso la promesa esta dentro de la funcion para que la funcion espere a que se cumpla la promesa poniendole a la funcion async, no lo tiene por que solo es ejemplo
+//el modulo utils tiene un metodo llamado promisify que permite escribir promesas de forma automatica
 function ordenarProducto(producto) {
   //resolve una funcion que se ejecuta cuando la promesa se cumple bien, reject es al contrario
   return new Promise((resolve, reject) => {
